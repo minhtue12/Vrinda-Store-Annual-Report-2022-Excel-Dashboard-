@@ -39,7 +39,7 @@ Thực hiện trong **Excel**:
 ### 🔸 Tạo thêm các cột tính toán
 - **Age Group:**  
   ```excel
-  =IF(Age<=25, "Teenager", IF(Age<=50, "Adult", "Senior"))
+  =IF(E2>=50,"Senior",IF(E2>=30,"Adult","Teenager"))
 - **Month**: Trích xuất tháng từ cột Date.
 
 ### 🔸 Loại bỏ dữ liệu lỗi
