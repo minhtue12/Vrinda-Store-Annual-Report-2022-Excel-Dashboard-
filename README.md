@@ -40,9 +40,9 @@ Thực hiện trong **Excel**:
 - **Age Group:**  
   ```excel
   =IF(Age<=25, "Teenager", IF(Age<=50, "Adult", "Senior"))
-Month: Trích xuất tháng từ cột Date.
+- **Month**: Trích xuất tháng từ cột Date.
 
-🔸 Loại bỏ dữ liệu lỗi
+### 🔸 Loại bỏ dữ liệu lỗi
 Chỉ giữ lại các dòng có Status khác trống và Amount > 0.
 
 ## 📊 Phân tích và trực quan hóa
@@ -100,13 +100,10 @@ Duy trì chất lượng giao hàng (Delivered 92%).
 
 Tăng chiến dịch vào nhóm sản phẩm Kurta, Set, Saree và khu vực Maharashtra, Karnataka.
 
-🛠️ Công cụ sử dụng
+## 🛠️ Công cụ sử dụng
 Excel (PivotTable, Slicer, Chart, Dashboard Layout)
-
 Data Cleaning & Transformation
-
 Visualization & Analysis
-
 ## 📁 File đính kèm
 Vrinda_Store_2022_Analysis.xlsx — file xử lý & dashboard hoàn chỉnh
 README.md — mô tả dự án 
